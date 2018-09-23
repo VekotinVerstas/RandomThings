@@ -1116,6 +1116,13 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
+#tag Events pmAddLocation
+	#tag Event
+		Sub Action()
+		  LocationWin.show
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events tfTransmitRate
 	#tag Event
 		Sub TextChange()
