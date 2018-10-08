@@ -9,23 +9,23 @@ Begin Window MainWin
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   400
+   Height          =   480
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
    MaxHeight       =   32000
-   MaximizeButton  =   True
+   MaximizeButton  =   False
    MaxWidth        =   32000
    MenuBar         =   1410369535
    MenuBarVisible  =   True
    MinHeight       =   64
-   MinimizeButton  =   True
+   MinimizeButton  =   False
    MinWidth        =   64
    Placement       =   0
-   Resizeable      =   True
+   Resizeable      =   False
    Title           =   "RandomThings Utility"
    Visible         =   True
-   Width           =   600
+   Width           =   607
    Begin Label Label1
       AutoDeactivate  =   True
       Bold            =   False
@@ -55,7 +55,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   19
+      Top             =   40
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -87,7 +87,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   19
+      Top             =   39
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -119,7 +119,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   19
+      Top             =   39
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -151,290 +151,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   19
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   60
-   End
-   Begin Label Label2
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   20
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   4
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "Observations:"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   210
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   171
-   End
-   Begin RadioButton RadioButton1
-      AutoDeactivate  =   True
-      Bold            =   False
-      Caption         =   "Static Value"
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   203
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   5
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   210
-      Transparent     =   False
-      Underline       =   False
-      Value           =   True
-      Visible         =   True
-      Width           =   118
-   End
-   Begin RadioButton RadioButton2
-      AutoDeactivate  =   True
-      Bold            =   False
-      Caption         =   "Random Values Range"
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   203
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   6
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   242
-      Transparent     =   False
-      Underline       =   False
-      Value           =   False
-      Visible         =   True
-      Width           =   159
-   End
-   Begin TextField tfStatic
-      AcceptTabs      =   False
-      Alignment       =   0
-      AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
-      Bold            =   False
-      Border          =   True
-      CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Format          =   ""
-      Height          =   22
-      HelpTag         =   ""
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   363
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Mask            =   ""
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   7
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   ""
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   209
-      Transparent     =   False
-      Underline       =   False
-      UseFocusRing    =   True
-      Visible         =   True
-      Width           =   80
-   End
-   Begin Label Label3
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   20
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   8
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "ObservedProperty:"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   136
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   171
-   End
-   Begin Label Label4
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   20
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   9
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "    JSON-LD URI (SKOS):"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   168
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   171
-   End
-   Begin TextField tfJSONLD
-      AcceptTabs      =   False
-      Alignment       =   0
-      AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
-      Bold            =   False
-      Border          =   True
-      CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Format          =   ""
-      Height          =   22
-      HelpTag         =   ""
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   203
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Mask            =   ""
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   10
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   ""
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   167
-      Transparent     =   False
-      Underline       =   False
-      UseFocusRing    =   True
-      Visible         =   True
-      Width           =   240
-   End
-   Begin PushButton pmGetJSON
-      AutoDeactivate  =   True
-      Bold            =   False
-      ButtonStyle     =   "0"
-      Cancel          =   False
-      Caption         =   "Get"
-      Default         =   False
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   455
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Scope           =   0
-      TabIndex        =   11
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   168
+      Top             =   40
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -539,275 +256,6 @@ Begin Window MainWin
       Visible         =   True
       Width           =   60
    End
-   Begin TextField tfRandomHigh
-      AcceptTabs      =   False
-      Alignment       =   0
-      AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
-      Bold            =   False
-      Border          =   True
-      CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Format          =   ""
-      Height          =   22
-      HelpTag         =   ""
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   363
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Mask            =   ""
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   15
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   ""
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   241
-      Transparent     =   False
-      Underline       =   False
-      UseFocusRing    =   True
-      Visible         =   True
-      Width           =   80
-   End
-   Begin TextField tfRandomLow
-      AcceptTabs      =   False
-      Alignment       =   0
-      AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
-      Bold            =   False
-      Border          =   True
-      CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Format          =   ""
-      Height          =   22
-      HelpTag         =   ""
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   363
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Mask            =   ""
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   16
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   ""
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   274
-      Transparent     =   False
-      Underline       =   False
-      UseFocusRing    =   True
-      Visible         =   True
-      Width           =   80
-   End
-   Begin TextField tfTransmitRate
-      AcceptTabs      =   False
-      Alignment       =   0
-      AutoDeactivate  =   True
-      AutomaticallyCheckSpelling=   False
-      BackColor       =   &cFFFFFF00
-      Bold            =   False
-      Border          =   True
-      CueText         =   ""
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Format          =   ""
-      Height          =   22
-      HelpTag         =   ""
-      Index           =   -2147483648
-      Italic          =   False
-      Left            =   363
-      LimitText       =   0
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Mask            =   "###"
-      Password        =   False
-      ReadOnly        =   False
-      Scope           =   0
-      TabIndex        =   17
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "60"
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   308
-      Transparent     =   False
-      Underline       =   False
-      UseFocusRing    =   True
-      Visible         =   True
-      Width           =   80
-   End
-   Begin Label Label6
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   203
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   18
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "Post Rate:"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   309
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   148
-   End
-   Begin Label Label7
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   455
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   19
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "/ min"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   309
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   47
-   End
-   Begin Label Label8
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   455
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   20
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "highest"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   242
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   47
-   End
-   Begin Label Label9
-      AutoDeactivate  =   True
-      Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
-      Enabled         =   True
-      Height          =   20
-      HelpTag         =   ""
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   455
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      Multiline       =   False
-      Scope           =   0
-      Selectable      =   False
-      TabIndex        =   21
-      TabPanelIndex   =   0
-      TabStop         =   True
-      Text            =   "lowest"
-      TextAlign       =   0
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   275
-      Transparent     =   False
-      Underline       =   False
-      Visible         =   True
-      Width           =   47
-   End
    Begin Label Label10
       AutoDeactivate  =   True
       Bold            =   False
@@ -875,7 +323,7 @@ Begin Window MainWin
       Visible         =   True
       Width           =   240
    End
-   Begin PushButton pmAddLocation1
+   Begin PushButton pmAddThing
       AutoDeactivate  =   True
       Bold            =   False
       ButtonStyle     =   "0"
@@ -971,51 +419,6 @@ Begin Window MainWin
       Visible         =   True
       Width           =   60
    End
-   Begin BevelButton bbRun
-      AcceptFocus     =   True
-      AutoDeactivate  =   True
-      BackColor       =   &c00000000
-      Bevel           =   0
-      Bold            =   False
-      ButtonType      =   1
-      Caption         =   "RUN"
-      CaptionAlign    =   3
-      CaptionDelta    =   0
-      CaptionPlacement=   1
-      Enabled         =   True
-      HasBackColor    =   False
-      HasMenu         =   0
-      Height          =   39
-      HelpTag         =   ""
-      Icon            =   0
-      IconAlign       =   0
-      IconDX          =   0
-      IconDY          =   0
-      Index           =   -2147483648
-      InitialParent   =   ""
-      Italic          =   False
-      Left            =   500
-      LockBottom      =   False
-      LockedInPosition=   False
-      LockLeft        =   True
-      LockRight       =   False
-      LockTop         =   True
-      MenuValue       =   0
-      Scope           =   0
-      TabIndex        =   27
-      TabPanelIndex   =   0
-      TabStop         =   True
-      TextColor       =   &c00000000
-      TextFont        =   "System"
-      TextSize        =   0.0
-      TextUnit        =   0
-      Top             =   342
-      Transparent     =   False
-      Underline       =   False
-      Value           =   False
-      Visible         =   True
-      Width           =   80
-   End
    Begin Timer Timer1
       Index           =   -2147483648
       LockedInPosition=   False
@@ -1024,95 +427,1058 @@ Begin Window MainWin
       Scope           =   0
       TabPanelIndex   =   0
    End
-   Begin Label Label11
+   Begin GroupBox gbObsProp
       AutoDeactivate  =   True
       Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
+      Caption         =   "ObservedProperty"
       Enabled         =   True
-      Height          =   20
+      Height          =   140
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   203
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Multiline       =   False
       Scope           =   0
-      Selectable      =   False
-      TabIndex        =   28
+      TabIndex        =   30
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Last Post:"
-      TextAlign       =   0
-      TextColor       =   &c00000000
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   342
+      Top             =   136
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   73
+      Width           =   432
+      Begin RadioButton rbFintoUCUM
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "Finto UCUM"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "gbObsProp"
+         Italic          =   False
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   0
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   172
+         Transparent     =   False
+         Underline       =   False
+         Value           =   True
+         Visible         =   True
+         Width           =   100
+      End
+      Begin PopupMenu pmTopConcepts
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "gbObsProp"
+         InitialValue    =   ""
+         Italic          =   False
+         Left            =   203
+         ListIndex       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   2
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   171
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   240
+      End
+      Begin PopupMenu pmConcept
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "gbObsProp"
+         InitialValue    =   ""
+         Italic          =   False
+         Left            =   203
+         ListIndex       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   3
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   204
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   240
+      End
+      Begin Label lCode
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "gbObsProp"
+         Italic          =   False
+         Left            =   203
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   4
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   ""
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   236
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   61
+      End
    End
-   Begin Label lLastPostTime
+   Begin GroupBox GroupBox1
       AutoDeactivate  =   True
       Bold            =   False
-      DataField       =   ""
-      DataSource      =   ""
+      Caption         =   "Language"
       Enabled         =   True
-      Height          =   20
+      Height          =   141
       HelpTag         =   ""
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   363
+      Left            =   464
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
       LockRight       =   False
       LockTop         =   True
-      Multiline       =   False
       Scope           =   0
-      Selectable      =   False
-      TabIndex        =   29
+      TabIndex        =   31
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   ""
-      TextAlign       =   0
-      TextColor       =   &c00000000
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   342
+      Top             =   136
       Transparent     =   False
       Underline       =   False
       Visible         =   True
-      Width           =   132
+      Width           =   123
+      Begin RadioButton rbLangFI
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "FI"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox1"
+         Italic          =   False
+         Left            =   484
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   0
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   172
+         Transparent     =   False
+         Underline       =   False
+         Value           =   False
+         Visible         =   True
+         Width           =   83
+      End
+      Begin RadioButton rbLangEN
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "EN"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox1"
+         Italic          =   False
+         Left            =   484
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   1
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   204
+         Transparent     =   False
+         Underline       =   False
+         Value           =   True
+         Visible         =   True
+         Width           =   83
+      End
+      Begin RadioButton rbLangDE
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "DE"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox1"
+         Italic          =   False
+         Left            =   484
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   2
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   236
+         Transparent     =   False
+         Underline       =   False
+         Value           =   False
+         Visible         =   True
+         Width           =   83
+      End
+   End
+   Begin GroupBox GroupBox2
+      AutoDeactivate  =   True
+      Bold            =   False
+      Caption         =   "Observation"
+      Enabled         =   True
+      Height          =   185
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   20
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   32
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   275
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   432
+      Begin RadioButton rbObsStatic
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "Static Value"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   0
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   311
+         Transparent     =   False
+         Underline       =   False
+         Value           =   True
+         Visible         =   True
+         Width           =   118
+      End
+      Begin RadioButton rbObsRandom
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "Random Values"
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   1
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   365
+         Transparent     =   False
+         Underline       =   False
+         Value           =   False
+         Visible         =   True
+         Width           =   118
+      End
+      Begin TextField tfStatic
+         AcceptTabs      =   False
+         Alignment       =   0
+         AutoDeactivate  =   True
+         AutomaticallyCheckSpelling=   False
+         BackColor       =   &cFFFFFF00
+         Bold            =   False
+         Border          =   True
+         CueText         =   ""
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Format          =   ""
+         Height          =   22
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   203
+         LimitText       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Mask            =   ""
+         Password        =   False
+         ReadOnly        =   False
+         Scope           =   0
+         TabIndex        =   2
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   ""
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   310
+         Transparent     =   False
+         Underline       =   False
+         UseFocusRing    =   True
+         Visible         =   True
+         Width           =   80
+      End
+      Begin TextField tfRandomHigh
+         AcceptTabs      =   False
+         Alignment       =   0
+         AutoDeactivate  =   True
+         AutomaticallyCheckSpelling=   False
+         BackColor       =   &cFFFFFF00
+         Bold            =   False
+         Border          =   True
+         CueText         =   ""
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Format          =   ""
+         Height          =   22
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   203
+         LimitText       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Mask            =   ""
+         Password        =   False
+         ReadOnly        =   False
+         Scope           =   0
+         TabIndex        =   3
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   ""
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   364
+         Transparent     =   False
+         Underline       =   False
+         UseFocusRing    =   True
+         Visible         =   True
+         Width           =   80
+      End
+      Begin TextField tfRandomLow
+         AcceptTabs      =   False
+         Alignment       =   0
+         AutoDeactivate  =   True
+         AutomaticallyCheckSpelling=   False
+         BackColor       =   &cFFFFFF00
+         Bold            =   False
+         Border          =   True
+         CueText         =   ""
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Format          =   ""
+         Height          =   22
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   203
+         LimitText       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Mask            =   ""
+         Password        =   False
+         ReadOnly        =   False
+         Scope           =   0
+         TabIndex        =   4
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   ""
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   396
+         Transparent     =   False
+         Underline       =   False
+         UseFocusRing    =   True
+         Visible         =   True
+         Width           =   80
+      End
+      Begin Label Label8
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   295
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   5
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "highest"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   365
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   47
+      End
+      Begin Label Label9
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   295
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   6
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "lowest"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   397
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   47
+      End
+      Begin CheckBox cbMoving
+         AutoDeactivate  =   True
+         Bold            =   False
+         Caption         =   "Moving Sensor"
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox2"
+         Italic          =   False
+         Left            =   40
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         State           =   0
+         TabIndex        =   7
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   430
+         Transparent     =   False
+         Underline       =   False
+         Value           =   False
+         Visible         =   True
+         Width           =   243
+      End
+   End
+   Begin GroupBox GroupBox3
+      AutoDeactivate  =   True
+      Bold            =   False
+      Caption         =   "Simulator"
+      Enabled         =   True
+      Height          =   185
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   464
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      TabIndex        =   33
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   275
+      Transparent     =   False
+      Underline       =   False
+      Visible         =   True
+      Width           =   123
+      Begin Label Label6
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   0
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "Post Rate:"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   298
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   83
+      End
+      Begin TextField tfTransmitRate
+         AcceptTabs      =   False
+         Alignment       =   2
+         AutoDeactivate  =   True
+         AutomaticallyCheckSpelling=   False
+         BackColor       =   &cFFFFFF00
+         Bold            =   False
+         Border          =   True
+         CueText         =   ""
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Format          =   ""
+         Height          =   22
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LimitText       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Mask            =   "###"
+         Password        =   False
+         ReadOnly        =   False
+         Scope           =   0
+         TabIndex        =   1
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "60"
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   321
+         Transparent     =   False
+         Underline       =   False
+         UseFocusRing    =   True
+         Visible         =   True
+         Width           =   35
+      End
+      Begin Label Label7
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   523
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   2
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "/ min"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   322
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   47
+      End
+      Begin Label Label11
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   3
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "Last Post:"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   347
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   73
+      End
+      Begin Label lLastPostTime
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   4
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "00:00:00.000"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   366
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   97
+      End
+      Begin BevelButton bbRun
+         AcceptFocus     =   True
+         AutoDeactivate  =   True
+         BackColor       =   &c00000000
+         Bevel           =   0
+         Bold            =   False
+         ButtonType      =   1
+         Caption         =   "RUN"
+         CaptionAlign    =   3
+         CaptionDelta    =   0
+         CaptionPlacement=   1
+         Enabled         =   True
+         HasBackColor    =   False
+         HasMenu         =   0
+         Height          =   39
+         HelpTag         =   ""
+         Icon            =   0
+         IconAlign       =   0
+         IconDX          =   0
+         IconDY          =   0
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         MenuValue       =   0
+         Scope           =   0
+         TabIndex        =   5
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   411
+         Transparent     =   False
+         Underline       =   False
+         Value           =   False
+         Visible         =   True
+         Width           =   97
+      End
+      Begin Label lastPostValue
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "GroupBox3"
+         Italic          =   False
+         Left            =   476
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Multiline       =   False
+         Scope           =   0
+         Selectable      =   False
+         TabIndex        =   6
+         TabPanelIndex   =   0
+         TabStop         =   True
+         Text            =   "00"
+         TextAlign       =   0
+         TextColor       =   &c00000000
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   387
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   97
+      End
    End
 End
 #tag EndWindow
 
 #tag WindowCode
+	#tag Event
+		Sub Open()
+		  ObsPropPopulate(1)
+		End Sub
+	#tag EndEvent
+
+
+	#tag Method, Flags = &h0
+		Sub ObsPropPopulate(s as integer, cval as string = "", curi as string = "")
+		  // will be called every time any of the PopupMenus were updated
+		  
+		  // load top concepts, populate pm with their labels
+		  
+		  // http://api.finto.fi/rest/v1/ucum/topConcepts
+		  
+		  dim https as New HTTPSecureSocket
+		  dim data as string
+		  dim nodeArray as JSONNode
+		  dim node(5) as JSONNode
+		  dim url as String
+		  dim pm(-1) as String
+		  dim i as integer
+		  
+		  https.Secure = True // True sets port to 443
+		  https.ConnectionType = SSLSocket.TLSv12
+		  https.SetRequestHeader("User-Agent:","RandomThingsUtility")
+		  
+		  // ================== STEP 1 ===================
+		  
+		  if s=1 then  // load top concepts adn parse JSON
+		    
+		    url = "http://api.finto.fi/rest/v1/ucum/topConcepts"
+		    
+		    data = https.Get(url,5)
+		    data = DefineEncoding(data,Encodings.UTF8)
+		    
+		    dim c as New ClipBoard
+		    c.Text = data
+		    
+		    if https.ErrorCode>1 then
+		      MsgBox "HTTP Error while fetching topConcepts:"+EndOfLine+"Error code "+str(https.ErrorCode)
+		    else
+		      redim pm(-1)
+		      redim node(5)
+		      
+		      pmTopConcepts.DeleteAllRows
+		      
+		      node(0) = JSONNode.Parse(data)
+		      nodeArray = node(0).Child("topconcepts")
+		      
+		      if nodeArray<>nil then
+		        
+		        for i  = 0 to nodeArray.ChildCount-1
+		          
+		          node(1) = nodeArray.Child(i)
+		          
+		          if node(1)<>nil then
+		            
+		            node(2) = node(1).Child("label")
+		            node(3) = node(1).Child("uri")
+		            
+		            if node(2)<>nil then
+		              
+		              pmTopConcepts.AddRow(node(2).StringValue)
+		              if node(3)<>nil then
+		                pmTopConcepts.RowTag(pmTopConcepts.ListCount-1) = node(3).StringValue
+		              end
+		            end
+		            
+		          end
+		          
+		        next
+		        
+		      end
+		      
+		    end
+		    
+		  end
+		  
+		  // ================ STEP 2 ==================
+		  
+		  if s = 2 then // loading concepts for selected topConcept
+		    
+		    url = "http://api.finto.fi/rest/v1/ucum/narrower?uri="+curi
+		    
+		    data = https.Get(url,5)
+		    
+		    data = DefineEncoding(data,Encodings.UTF8)
+		    
+		    if https.ErrorCode>1 then
+		      MsgBox "HTTP Error while fetching topConcepts:"+EndOfLine+"Error code "+str(https.ErrorCode)
+		    else
+		      redim pm(-1)
+		      redim node(5)
+		      
+		      pmConcept.DeleteAllRows
+		      
+		      node(0) = JSONNode.Parse(data)
+		      nodeArray = node(0).Child("narrower")
+		      
+		      if nodeArray<>nil then
+		        
+		        for i  = 0 to nodeArray.ChildCount-1
+		          
+		          node(1) = nodeArray.Child(i)
+		          
+		          if node(1)<>nil then
+		            
+		            node(2) = node(1).Child("prefLabel")
+		            node(3) = node(1).Child("uri")
+		            
+		            if node(2)<>nil then
+		              
+		              pmConcept.addrow(node(2).StringValue)
+		              
+		              if node(3)<>nil then
+		                
+		                pmConcept.rowtag(pmConcept.ListCount-1) = node(3).StringValue
+		                
+		              end
+		              
+		            end
+		            
+		          end
+		          
+		        next
+		        
+		      end
+		      
+		    end
+		    
+		  end
+		  
+		  // ======================= STEP 3 ========================
+		  
+		  if s=3 then
+		    
+		    
+		    
+		  end
+		  
+		  
+		  exception err as JSONException
+		    MsgBox "JSON Error occurred."
+		End Sub
+	#tag EndMethod
+
+
 #tag EndWindowCode
 
 #tag Events pmAddHost
 	#tag Event
 		Sub Action()
 		  HostWin.show
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events RadioButton1
-	#tag Event
-		Sub Action()
-		  tfStatic.enabled = me.value
-		  tfRandomHigh.enabled = not me.value
-		  tfRandomLow.enabled = not me.value
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -1123,9 +1489,82 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
+#tag Events Timer1
+	#tag Event
+		Sub Action()
+		  // post observations
+		  
+		  Using Xojo.Core
+		  dim d as Date = Date.Now
+		  dim v1,v2,v as double
+		  
+		  dim propVal as double
+		  
+		  lLastPostTime.text = format(d.Hour,"00")+":"+format(d.Minute,"00")+":"+format(d.Second,"00")+"."+format((d.Nanosecond/1000000),"000")
+		  
+		  if rbObsStatic.value then
+		    
+		    propVal = val(tfStatic.text)
+		    lastPostValue.Text = Format(propVal,"-#.0000")
+		    
+		  else
+		    
+		    dim rnd as New Random
+		    
+		    if InStr(tfRandomHigh.text,".")>0 or InStr(tfRandomLow.text,".")>0 then
+		      v1 = val(tfRandomLow.text) * 1000
+		      v2 = val(tfRandomHigh.text) * 1000
+		      propVal = (rnd.InRange(v1,v2))/1000
+		      lastPostValue.Text = Format(propVal,"-#.0000")
+		    else
+		      v1 = val(tfRandomLow.text)
+		      v2 = val(tfRandomHigh.text)
+		      propVal = (rnd.InRange(v1,v2))
+		      lastPostValue.Text = Format(propVal,"-#")
+		    end
+		    
+		  end
+		  
+		  
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events pmTopConcepts
+	#tag Event
+		Sub Change()
+		  if me.ListIndex>-1 then
+		    
+		    ObsPropPopulate(2,me.Text,me.RowTag(me.ListIndex))
+		    
+		  end
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events pmConcept
+	#tag Event
+		Sub Change()
+		  if me.ListIndex>-1 then
+		    
+		    ObsPropPopulate(3,me.Text,me.RowTag(me.ListIndex))
+		    
+		  end
+		End Sub
+	#tag EndEvent
+#tag EndEvents
+#tag Events rbObsStatic
+	#tag Event
+		Sub Action()
+		  tfStatic.enabled = me.value
+		  tfRandomHigh.enabled = not me.value
+		  tfRandomLow.enabled = not me.value
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events tfTransmitRate
 	#tag Event
 		Sub TextChange()
+		  if val(me.text)>60 then me.text = "60"
+		  
 		  Timer1.Period = 60/(val(me.text)) * 1000
 		End Sub
 	#tag EndEvent
@@ -1147,18 +1586,6 @@ End
 		    Timer1.Mode = Timer.ModeOff
 		    
 		  end
-		End Sub
-	#tag EndEvent
-#tag EndEvents
-#tag Events Timer1
-	#tag Event
-		Sub Action()
-		  // post observations
-		  
-		  Using Xojo.Core
-		  dim d as Date = Date.Now
-		  
-		  lLastPostTime.text = format(d.Hour,"00")+":"+format(d.Minute,"00")+":"+format(d.Second,"00")+"."+format((d.Nanosecond/1000000),"000")
 		End Sub
 	#tag EndEvent
 #tag EndEvents

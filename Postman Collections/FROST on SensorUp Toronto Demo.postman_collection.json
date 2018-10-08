@@ -1,0 +1,230 @@
+{
+	"info": {
+		"_postman_id": "3c045aff-7d69-4763-a623-86cb2d172b19",
+		"name": "FROST on SensorUp Toronto Demo",
+		"description": "Sample data from SensorUp Toronto demo server. Link: http://developers.sensorup.com/docs/ ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetCapabilities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetThings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/Things",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"Things"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/Locations",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"Locations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetHistoricalLocations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/HistoricalLocations",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"HistoricalLocations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetDatastreams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/Datastreams",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"Datastreams"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSensors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/Sensors",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"Sensors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetObservations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/Observations",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"Observations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetObservedProperties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/ObservedProperties",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"ObservedProperties"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFeaturesOfInterest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://toronto-bike-snapshot.sensorup.com/v1.0/FeaturesOfInterest",
+					"protocol": "https",
+					"host": [
+						"toronto-bike-snapshot",
+						"sensorup",
+						"com"
+					],
+					"path": [
+						"v1.0",
+						"FeaturesOfInterest"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "eace3d69-e30f-4a76-8c59-1cd6e623a627",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b206e192-245c-4394-8520-f8c15a9149f1",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

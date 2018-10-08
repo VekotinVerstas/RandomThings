@@ -1,0 +1,157 @@
+{
+	"info": {
+		"_postman_id": "6af8d894-832c-41dc-9a97-890f883f73c9",
+		"name": "UCUM on Finto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LookupByLabel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.finto.fi/rest/v1/ucum/lookup?label=watt",
+					"protocol": "http",
+					"host": [
+						"api",
+						"finto",
+						"fi"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"ucum",
+						"lookup"
+					],
+					"query": [
+						{
+							"key": "label",
+							"value": "watt"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLabel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.finto.fi/rest/v1/ucum/label?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59",
+					"protocol": "http",
+					"host": [
+						"api",
+						"finto",
+						"fi"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"ucum",
+						"label"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetLabelInFinnish",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.finto.fi/rest/v1/ucum/label?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59&lang=fi",
+					"protocol": "http",
+					"host": [
+						"api",
+						"finto",
+						"fi"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"ucum",
+						"label"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar59"
+						},
+						{
+							"key": "lang",
+							"value": "fi"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTopConcepts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.finto.fi/rest/v1/ucum/topConcepts",
+					"protocol": "http",
+					"host": [
+						"api",
+						"finto",
+						"fi"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"ucum",
+						"topConcepts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetNarrower",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://api.finto.fi/rest/v1/ucum/narrower?uri=http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar22",
+					"protocol": "http",
+					"host": [
+						"api",
+						"finto",
+						"fi"
+					],
+					"path": [
+						"rest",
+						"v1",
+						"ucum",
+						"narrower"
+					],
+					"query": [
+						{
+							"key": "uri",
+							"value": "http%3A%2F%2Furn.fi%2FURN%3ANBN%3Afi%3Aau%3Aucum%3Ar22"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
