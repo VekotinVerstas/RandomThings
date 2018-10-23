@@ -55,7 +55,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   40
+      Top             =   21
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -87,7 +87,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   39
+      Top             =   20
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -119,7 +119,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   39
+      Top             =   20
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -151,7 +151,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   40
+      Top             =   21
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -285,7 +285,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   72
+      Top             =   54
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -317,7 +317,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   71
+      Top             =   53
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -349,7 +349,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   72
+      Top             =   54
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -381,7 +381,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   72
+      Top             =   54
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1320,6 +1320,39 @@ Begin Window MainWin
          Visible         =   True
          Width           =   97
       End
+   End
+   Begin CheckBox cbIncludeTrail
+      AutoDeactivate  =   True
+      Bold            =   False
+      Caption         =   "Include Trail Assets"
+      DataField       =   ""
+      DataSource      =   ""
+      Enabled         =   True
+      Height          =   20
+      HelpTag         =   ""
+      Index           =   -2147483648
+      InitialParent   =   ""
+      Italic          =   False
+      Left            =   31
+      LockBottom      =   False
+      LockedInPosition=   False
+      LockLeft        =   True
+      LockRight       =   False
+      LockTop         =   True
+      Scope           =   0
+      State           =   0
+      TabIndex        =   34
+      TabPanelIndex   =   0
+      TabStop         =   True
+      TextFont        =   "System"
+      TextSize        =   0.0
+      TextUnit        =   0
+      Top             =   80
+      Transparent     =   False
+      Underline       =   False
+      Value           =   False
+      Visible         =   True
+      Width           =   168
    End
 End
 #tag EndWindow
