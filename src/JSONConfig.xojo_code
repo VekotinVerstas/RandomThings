@@ -1,45 +1,58 @@
 #tag Class
-Protected Class SKOSObject
-	#tag Method, Flags = &h0
-		Function Export() As string
-		  // serialize the content as JSON string
+Protected Class JSONConfig
+	#tag Method, Flags = &h1
+		Protected Function getValue(key as string) As variant
+		  
 		End Function
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub Get(url as string)
-		  // get object context, parse and store locally
+		Function init() As boolean
+		  ConfigPath = SpecialFolder.SharedApplicationData.Child("RandomThings.config")
 		  
+		  ConfigItems = New Dictionary
 		  
-		End Sub
+		  me.read
+		  
+		  return true
+		End Function
 	#tag EndMethod
 
 	#tag Method, Flags = &h0
-		Sub GetLabel(lang as skosLang, uriPath as string)
+		Sub read()
+		  
+		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h1
+		Protected Function setValue(key as string, v as variant) As boolean
 		  
 		  
 		  
-		  // {
-		  // "@context": {
-		  // "skos": "http://www.w3.org/2004/02/skos/core#",
-		  // "uri": "@id",
-		  // "type": "@type",
-		  // "prefLabel": "skos:prefLabel",
-		  // "@language": "en"
-		  // },
-		  // "uri": "http://urn.fi/URN:NBN:fi:au:ucum:r59",
-		  // "prefLabel": "watt"
-		  // }
+		  needsUpdate = true
+		  
+		  return true
+		End Function
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Sub write()
+		  
 		End Sub
 	#tag EndMethod
 
 
-	#tag Enum, Name = skosLang, Type = Integer, Flags = &h0
-		en
-		  fi
-		  de
-		fr
-	#tag EndEnum
+	#tag Property, Flags = &h21
+		Private ConfigItems As Dictionary
+	#tag EndProperty
+
+	#tag Property, Flags = &h21
+		Private ConfigPath As FolderItem
+	#tag EndProperty
+
+	#tag Property, Flags = &h1
+		Protected needsUpdate As Boolean
+	#tag EndProperty
 
 
 	#tag ViewBehavior

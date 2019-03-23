@@ -3,10 +3,17 @@ Protected Class App
 Inherits Application
 	#tag Event
 		Sub Open()
+		  myConfig = New JSONConfig
 		  
-		  
+		  do
+		  loop until myConfig.init
 		End Sub
 	#tag EndEvent
+
+
+	#tag Property, Flags = &h0
+		myConfig As JSONConfig
+	#tag EndProperty
 
 
 	#tag Constant, Name = kEditClear, Type = String, Dynamic = False, Default = \"&Delete", Scope = Public

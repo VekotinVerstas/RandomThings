@@ -9,7 +9,7 @@ Begin Window MainWin
    FullScreen      =   False
    FullScreenButton=   False
    HasBackColor    =   False
-   Height          =   480
+   Height          =   538
    ImplicitInstance=   True
    LiveResize      =   True
    MacProcID       =   0
@@ -49,7 +49,7 @@ Begin Window MainWin
       TabIndex        =   0
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "SensorThings Server Host:"
+      Text            =   "SensorThings Endpoint:"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -279,7 +279,7 @@ Begin Window MainWin
       TabIndex        =   22
       TabPanelIndex   =   0
       TabStop         =   True
-      Text            =   "Thing:"
+      Text            =   "Sensor:"
       TextAlign       =   0
       TextColor       =   &c00000000
       TextFont        =   "System"
@@ -450,7 +450,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   136
+      Top             =   190
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -478,7 +478,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   172
+         Top             =   226
          Transparent     =   False
          Underline       =   False
          Value           =   True
@@ -511,7 +511,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   171
+         Top             =   225
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -543,7 +543,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   204
+         Top             =   258
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -578,11 +578,43 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   236
+         Top             =   290
          Transparent     =   False
          Underline       =   False
          Visible         =   True
          Width           =   61
+      End
+      Begin PopupMenu pmPrefix
+         AutoDeactivate  =   True
+         Bold            =   False
+         DataField       =   ""
+         DataSource      =   ""
+         Enabled         =   True
+         Height          =   20
+         HelpTag         =   ""
+         Index           =   -2147483648
+         InitialParent   =   "gbObsProp"
+         InitialValue    =   ""
+         Italic          =   False
+         Left            =   203
+         ListIndex       =   0
+         LockBottom      =   False
+         LockedInPosition=   False
+         LockLeft        =   True
+         LockRight       =   False
+         LockTop         =   True
+         Scope           =   0
+         TabIndex        =   5
+         TabPanelIndex   =   0
+         TabStop         =   True
+         TextFont        =   "System"
+         TextSize        =   0.0
+         TextUnit        =   0
+         Top             =   289
+         Transparent     =   False
+         Underline       =   False
+         Visible         =   True
+         Width           =   240
       End
    End
    Begin GroupBox GroupBox1
@@ -608,7 +640,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   136
+      Top             =   190
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -636,7 +668,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   172
+         Top             =   226
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -666,7 +698,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   204
+         Top             =   258
          Transparent     =   False
          Underline       =   False
          Value           =   True
@@ -696,7 +728,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   236
+         Top             =   290
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -727,7 +759,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   275
+      Top             =   333
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -755,7 +787,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   311
+         Top             =   369
          Transparent     =   False
          Underline       =   False
          Value           =   True
@@ -785,7 +817,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   365
+         Top             =   423
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -829,7 +861,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   310
+         Top             =   368
          Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
@@ -873,7 +905,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   364
+         Top             =   422
          Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
@@ -917,7 +949,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   396
+         Top             =   454
          Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
@@ -953,7 +985,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   365
+         Top             =   423
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -988,7 +1020,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   397
+         Top             =   455
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1020,7 +1052,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   430
+         Top             =   488
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -1051,7 +1083,7 @@ Begin Window MainWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   275
+      Top             =   333
       Transparent     =   False
       Underline       =   False
       Visible         =   True
@@ -1085,7 +1117,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   298
+         Top             =   356
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1128,7 +1160,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   321
+         Top             =   379
          Transparent     =   False
          Underline       =   False
          UseFocusRing    =   True
@@ -1164,7 +1196,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   322
+         Top             =   380
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1199,7 +1231,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   347
+         Top             =   405
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1234,7 +1266,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   366
+         Top             =   424
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1244,7 +1276,7 @@ Begin Window MainWin
          AcceptFocus     =   True
          AutoDeactivate  =   True
          BackColor       =   &c00000000
-         Bevel           =   0
+         Bevel           =   2
          Bold            =   False
          ButtonType      =   1
          Caption         =   "RUN"
@@ -1278,7 +1310,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   411
+         Top             =   469
          Transparent     =   False
          Underline       =   False
          Value           =   False
@@ -1314,7 +1346,7 @@ Begin Window MainWin
          TextFont        =   "System"
          TextSize        =   0.0
          TextUnit        =   0
-         Top             =   387
+         Top             =   445
          Transparent     =   False
          Underline       =   False
          Visible         =   True
@@ -1387,7 +1419,7 @@ End
 		  
 		  // ================== STEP 1 ===================
 		  
-		  if s=1 then  // load top concepts adn parse JSON
+		  if s=1 then  // load top concepts and prefixes
 		    
 		    url = "http://api.finto.fi/rest/v1/ucum/topConcepts"
 		    
@@ -1435,6 +1467,17 @@ End
 		      
 		    end
 		    
+		    // loading prefixes
+		    // TODO
+		    
+		    redim pm(-1)
+		    redim node(5)
+		    
+		    pmPrefix.DeleteAllRows
+		    
+		    node(0) = JSONNode.Parse(data)
+		    nodeArray = node(0).Child("topconcepts")
+		    
 		  end
 		  
 		  // ================ STEP 2 ==================
@@ -1471,7 +1514,10 @@ End
 		            
 		            if node(2)<>nil then
 		              
-		              pmConcept.addrow(node(2).StringValue)
+		              s = node(2).StringValue
+		              s = DefineEncoding(s,Encodings.UTF8)
+		              
+		              pmConcept.addrow()
 		              
 		              if node(3)<>nil then
 		                
@@ -1491,18 +1537,19 @@ End
 		    
 		  end
 		  
-		  // ======================= STEP 3 ========================
-		  
-		  if s=3 then
-		    
-		    
-		    
-		  end
-		  
 		  
 		  exception err as JSONException
 		    MsgBox "JSON Error occurred."
 		End Sub
+	#tag EndMethod
+
+	#tag Method, Flags = &h0
+		Function parsePrefix(s as string) As double
+		  //  parse 1e6 notation into double value
+		  // assuming it will always be 1
+		  
+		  return  (10 ^ (val(NthField(s,"e",2))))
+		End Function
 	#tag EndMethod
 
 
@@ -1584,6 +1631,15 @@ End
 		End Sub
 	#tag EndEvent
 #tag EndEvents
+#tag Events pmPrefix
+	#tag Event
+		Sub Change()
+		  if me.ListIndex>-1 then
+		    
+		  end
+		End Sub
+	#tag EndEvent
+#tag EndEvents
 #tag Events rbObsStatic
 	#tag Event
 		Sub Action()
@@ -1606,6 +1662,8 @@ End
 	#tag Event
 		Sub Action()
 		  if me.value then
+		    
+		    
 		    
 		    me.HasBackColor = true
 		    me.BackColor = &c115511

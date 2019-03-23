@@ -14,15 +14,15 @@ Begin Window HostWin
    LiveResize      =   True
    MacProcID       =   0
    MaxHeight       =   32000
-   MaximizeButton  =   True
+   MaximizeButton  =   False
    MaxWidth        =   32000
    MenuBar         =   0
    MenuBarVisible  =   True
    MinHeight       =   64
-   MinimizeButton  =   True
+   MinimizeButton  =   False
    MinWidth        =   64
    Placement       =   0
-   Resizeable      =   True
+   Resizeable      =   False
    Title           =   "SensorThings Server Host"
    Visible         =   True
    Width           =   408
@@ -278,7 +278,7 @@ Begin Window HostWin
       Index           =   -2147483648
       InitialParent   =   ""
       Italic          =   False
-      Left            =   328
+      Left            =   20
       LockBottom      =   False
       LockedInPosition=   False
       LockLeft        =   True
@@ -293,7 +293,7 @@ Begin Window HostWin
       TextFont        =   "System"
       TextSize        =   0.0
       TextUnit        =   0
-      Top             =   84
+      Top             =   206
       Transparent     =   False
       Underline       =   False
       Value           =   False
