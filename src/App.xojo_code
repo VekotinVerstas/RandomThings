@@ -2,14 +2,25 @@
 Protected Class App
 Inherits Application
 	#tag Event
+		Sub Close()
+		  if myConfig<>nil then
+		    myConfig.write(myConfig)
+		  end
+		End Sub
+	#tag EndEvent
+
+	#tag Event
 		Sub Open()
-		  myConfig = New JSONConfig
+		  myConfig = New configJSON
+		  
+		  do
+		  loop until myConfig.read
 		End Sub
 	#tag EndEvent
 
 
 	#tag Property, Flags = &h0
-		myConfig As JSONConfig
+		myConfig As configJSON
 	#tag EndProperty
 
 

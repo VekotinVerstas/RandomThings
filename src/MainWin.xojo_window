@@ -1530,7 +1530,7 @@ End
 #tag Events pmEditHost
 	#tag Event
 		Sub Action()
-		  app.myConfig.write(app.myConfig)
+		  
 		End Sub
 	#tag EndEvent
 #tag EndEvents
@@ -1548,7 +1548,7 @@ End
 		  
 		  Using Xojo.Core
 		  dim d as Date = Date.Now
-		  dim v1,v2,v as double
+		  dim v1,v2 as double
 		  
 		  dim propVal as double
 		  

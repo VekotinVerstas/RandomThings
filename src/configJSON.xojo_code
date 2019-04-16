@@ -1,52 +1,57 @@
 #tag Class
-Protected Class JSONConfig
+Protected Class configJSON
+	#tag Method, Flags = &h0
+		Function read() As boolean
+		  
+		  
+		  
+		  return true
+		End Function
+	#tag EndMethod
+
 	#tag Method, Flags = &h0
 		Sub write(o as object)
 		  // convert all properties into JSON objects
 		  
 		  dim cDictArray() as Xojo.Core.Dictionary
 		  dim d as Xojo.Core.Dictionary
-		  dim jsonConfig as Text
-		  dim s as string
-		  
-		  hostName = "esx01.domain.lan"
 		  
 		  // get all the properties of this class instance
 		  
-		  Using Xojo.Introspection
+		  dim props() as Introspection.PropertyInfo = Introspection.GetType(o).GetProperties
 		  
-		  Dim info As TypeInfo
-		  dim properties() as PropertyInfo
-		  
-		  info = GetType(o)
-		  
-		  properties = info.properties
-		  
-		  for each p as PropertyInfo in properties
+		  for i as integer = 0 to uBound(props)
 		    
 		    d = New Xojo.Core.Dictionary
 		    
-		    SELECT CASE p.PropertyType.FullName
-		      
-		    CASE "String"
-		      
-		      d.Value(p.Name) = p.value(p)
-		      
-		    CASE "Integer"
-		      
-		      // d.Value(p.Name) = CType(p.value(p),Integer)
-		      
-		    END SELECT
+		    // TODO other property types than text/string
+		    
+		    d.Value(props(i).name) = props(i).value(o)
 		    
 		    cDictArray.append(d)
 		    
 		  next
 		  
 		  // create json and write new config
-		   
-		  jsonConfig = Xojo.Data.GenerateJSON(cDictArray)
-		   
-		  MsgBox jsonConfig
+		  
+		  dim confFile as FolderItem = SpecialFolder.Preferences
+		  
+		  if confFile <> Nil then
+		    dim f as FolderItem = confFile.Child("com.fvh.RandomThings.config")
+		    if f<>nil then
+		      
+		      if f.exists then f.delete()
+		      
+		      Try
+		        dim t as TextOutputStream = TextOutputStream.Create(f)
+		        t.write(ConvertEncoding(Xojo.Data.GenerateJSON(cDictArray),Encodings.UTF8))
+		        t.Close
+		      Catch e as IOException
+		        //handle with care
+		      End Try
+		    end
+		  end
+		  
 		End Sub
 	#tag EndMethod
 
@@ -61,7 +66,7 @@ Protected Class JSONConfig
 	#tag EndComputedProperty
 
 	#tag Property, Flags = &h0
-		hostName As String
+		hostName As Text = "esx01.domain.lan"
 	#tag EndProperty
 
 
