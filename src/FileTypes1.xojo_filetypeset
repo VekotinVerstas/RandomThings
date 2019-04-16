@@ -1,0 +1,17 @@
+#tag FileTypeSet
+	#tag FileType
+		CodeName=Config
+		DocIcon=RandomThings.xojo_resources;&h0
+		Extension=config
+		Flags=&h0
+		MacCreator=
+		MacType=
+		Name=Config
+		UTI=
+		UTIConformsTo=
+		Description=
+		MimeType=text/plain
+		Imported=True
+	#tag EndFileType
+
+#tag EndFileTypeSet

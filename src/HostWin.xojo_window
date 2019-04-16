@@ -688,6 +688,11 @@ End
 	#tag EndMethod
 
 
+	#tag Property, Flags = &h0
+		modeEdit As Boolean
+	#tag EndProperty
+
+
 #tag EndWindowCode
 
 #tag Events pbCancel

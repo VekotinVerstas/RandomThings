@@ -4,9 +4,6 @@ Inherits Application
 	#tag Event
 		Sub Open()
 		  myConfig = New JSONConfig
-		  
-		  do
-		  loop until myConfig.init
 		End Sub
 	#tag EndEvent
 
