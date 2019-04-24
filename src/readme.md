@@ -1,2 +1,2 @@
 Build environment:
-Xojo 2018R2 with Einhugur class library collection
+Xojo 2019R1 with Einhugur class library collection
